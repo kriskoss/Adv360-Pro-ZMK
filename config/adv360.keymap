@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL   &kp N1     &kp N2        &kp N3    &kp N4     &kp N5  &tog 1                                                                &mo 3      &kp N6  &kp N7          &kp N8        &kp N9     &kp N0    &kp MINUS
-&kp TAB     &kp Q      &kp W         &kp E     &kp R      &kp T   &none                                                                 &none      &kp Y   &kp U           &kp I         &kp O      &kp P     &kp BSLH
-&kp ESCAPE  &kp A      &kp S         &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LWIN           &kp LCTRL      &kp LA(LCTRL)  &none      &kp H   &kp J           &kp K         &kp L      &kp SEMI  &kp SQT
-&kp LSHFT   &kp SLASH  &kp Z         &kp X     &kp C      &kp V                        &kp CAPS           &kp LC(LWIN)                             &kp B   &kp N           &kp M         &kp COMMA  &kp DOT   &kp RSHFT
-&mo 2       &kp GRAVE  &kp LEFT_ALT  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp LC(LSHFT)      &kp LA(LCTRL)  &kp ENTER      &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT   &kp RBKT  &mo 2
+&kp EQUAL   &kp N1     &kp N2        &kp N3    &kp N4     &kp N5  &tog 1                                                                   &mo 3      &kp N6  &kp N7          &kp N8        &kp N9     &kp N0    &kp MINUS
+&kp TAB     &kp Q      &kp W         &kp E     &kp R      &kp T   &none                                                                    &none      &kp Y   &kp U           &kp I         &kp O      &kp P     &kp BSLH
+&kp ESCAPE  &kp A      &kp S         &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LWIN              &kp LCTRL      &kp RIGHT_ALT  &none      &kp H   &kp J           &kp K         &kp L      &kp SEMI  &kp SQT
+&kp LSHFT   &kp SLASH  &kp Z         &kp X     &kp C      &kp V                        &kp CAPS              &kp LA(LWIN)                             &kp B   &kp N           &kp M         &kp COMMA  &kp DOT   &kp RSHFT
+&mo 2       &kp GRAVE  &kp LEFT_ALT  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp LS(LEFT_ALT)      &kp LA(LCTRL)  &kp ENTER      &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT   &kp RBKT  &mo 2
             >;
         };
 
