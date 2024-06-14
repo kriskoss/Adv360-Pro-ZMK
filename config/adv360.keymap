@@ -60,7 +60,7 @@
 &kp F1  &kp F2      &kp F3     &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7                &kp F8                 &kp F9        &kp F10    &kp F11  &kp F12
 &trans  &none       &kp LSHFT  &none         &none         &none   &none                                       &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none         &none      &none    &none
 &to 0   &kp LSHIFT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &none   &none   &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW        &kp DOWN               &kp UP_ARROW  &kp RIGHT  &none    &none
-&trans  &none       &kp Z      &kp X         &kp C         &kp V                   &trans      &trans                  &none                 &none                  &kp UP        &none      &none    &trans
+&trans  &none       &kp Z      &kp X         &kp C         &kp V                   &trans      &trans                  &kp B                 &none                  &kp UP        &none      &none    &trans
 &trans  &to 0       &trans     &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans                        &kp LEFT               &kp DOWN      &kp RIGHT  &none    &trans
             >;
         };
