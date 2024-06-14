@@ -37,11 +37,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE   &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                        &mo 3      &kp N6  &kp N7                &kp N8                 &kp N9     &kp N0    &kp MINUS
-&kp TAB     &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                         &mkp RCLK  &kp Y   &kp U                 &kp I                  &kp O      &kp P     &kp BSLH
-&kp ESCAPE  &kp A      &kp S     &kp D     &kp F      &kp G   &to 2     &kp LCTRL  &kp LWIN       &kp LEFT_WIN   &kp RCTRL  &mkp LCLK  &kp H   &kp J                 &kp K                  &kp L      &kp SEMI  &kp SQT
-&kp LSHFT   &kp SLASH  &kp Z     &kp X     &kp C      &kp V                        &kp LSHFT      &kp RSHFT                            &kp B   &kp N                 &kp M                  &kp COMMA  &kp DOT   &kp RSHFT
-&kp LCTRL   &mo 2      &kp LWIN  &kp LALT  &kp SPACE          &kp BSPC  &kp DEL    &kp LALT       &kp RIGHT_ALT  &kp ENTER  &kp SPACE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBKT   &kp RBKT  &kp EQUAL
+&kp GRAVE   &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                        &mo 3      &kp N6  &kp N7   &kp N8     &kp N9     &kp N0    &kp MINUS
+&kp TAB     &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                         &mkp RCLK  &kp Y   &kp U    &kp I      &kp O      &kp P     &kp BSLH
+&kp ESCAPE  &kp A      &kp S     &kp D     &kp F      &kp G   &to 2     &kp LCTRL  &kp LWIN       &kp LEFT_WIN   &kp RCTRL  &mkp LCLK  &kp H   &kp J    &kp K      &kp L      &kp SEMI  &kp SQT
+&kp LSHFT   &kp SLASH  &kp Z     &kp X     &kp C      &kp V                        &kp LSHFT      &kp RSHFT                            &kp B   &kp N    &kp M      &kp COMMA  &kp DOT   &kp RSHFT
+&kp LCTRL   &mo 2      &kp LWIN  &kp LALT  &kp SPACE          &kp BSPC  &kp DEL    &kp LALT       &kp RIGHT_ALT  &kp ENTER  &kp SPACE          &kp TAB  &mkp MCLK  &kp LBKT   &kp RBKT  &kp EQUAL
             >;
         };
 
@@ -57,11 +57,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2      &kp F3     &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7          &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
-&trans  &none       &kp LSHFT  &none         &none         &none   &none                                       &none   &none           &none     &none         &none      &none    &none
-&to 0   &kp LSHIFT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &none   &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none    &none
-&trans  &none       &none      &none         &none         &none                   &trans      &trans                  &none           &none     &kp UP        &none      &none    &trans
-&trans  &to 0       &trans     &trans        &none                 &trans  &trans  &trans      &trans  &trans  &trans                  &kp LEFT  &kp DOWN      &kp RIGHT  &none    &trans
+&kp F1  &kp F2      &kp F3     &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3                 &kp F7                 &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
+&trans  &none       &kp LSHFT  &none         &none         &none   &none                                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none     &none         &none      &none    &none
+&to 0   &kp LSHIFT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &none   &none   &trans  &trans      &trans  &trans  &none                 &kp LEFT_ARROW         &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none    &none
+&trans  &none       &none      &none         &none         &none                   &trans      &trans                                &none                  &none     &kp UP        &none      &none    &trans
+&trans  &to 0       &trans     &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans                                       &kp LEFT  &kp DOWN      &kp RIGHT  &none    &trans
             >;
         };
 
