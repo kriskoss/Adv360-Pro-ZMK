@@ -32,6 +32,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        TrackballScrollMB4 {
+            bindings = <&mkp MB4>;
+            key-positions = <71 72>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
