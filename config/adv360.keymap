@@ -47,7 +47,7 @@
         default_layer {
             bindings = <
 &kp GRAVE   &kp N1           &kp N2       &kp N3           &kp N4       &kp N5      &tog 1                                                          &mo 3      &kp N6      &kp N7       &kp N8      &kp N9       &kp N0               &kp MINUS
-&kp TAB     &kp Q            &kp W        &hm RIGHT_ALT E  &hm LSHFT R  &kp T       &none                                                           &kp TAB    &kp Y       &hm RSHFT U  &hm RALT I  &kp O        &kp P                &kp BSLH
+&kp TAB     &kp Q            &lt 4 W      &hm RIGHT_ALT E  &hm LSHFT R  &kp T       &none                                                           &kp TAB    &kp Y       &hm RSHFT U  &hm RALT I  &lt 4 O      &kp P                &kp BSLH
 &kp ESCAPE  &hm LSHFT A      &hm LCTRL S  &lt 2 D          &hm LWIN F   &hm LALT G  &to 2     &kp LCTRL  &kp LWIN       &kp LEFT_WIN   &kp RCTRL    &mkp MB4   &hm LALT H  &hm RWIN J   &kp K       &hm RCTRL L  &hm RSHFT SEMICOLON  &kp SQT
 &kp LSHFT   &hm LSHFT SLASH  &kp Z        &hm LALT X       &kp C        &kp V                            &kp LSHFT      &kp RSHFT                              &kp B       &kp N        &hm LALT M  &kp COMMA    &hm RSHIFT DOT       &kp RSHFT
 &kp LCTRL   &mo 2            &kp LWIN     &kp LALT         &kp SPACE                &kp BSPC  &kp DEL    &kp LALT       &kp RIGHT_ALT  &lt 2 ENTER  &kp SPACE              &mkp LCLK    &mkp RCLK   &kp LBKT     &kp RBKT             &kp EQUAL
@@ -81,6 +81,16 @@
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
+            >;
+        };
+
+        numbers_and_sym_4 {
+            bindings = <
+&trans  &trans        &trans        &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
