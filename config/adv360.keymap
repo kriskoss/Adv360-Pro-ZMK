@@ -96,11 +96,11 @@
 
         numbers_and_sym_4 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans        &trans                                      &trans  &trans        &trans        &trans        &trans                &trans                 &trans
-&trans  &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT   &trans                                      &trans  &kp CARET     &kp AMPS      &kp ASTRK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&to 0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans  &trans  &trans      &trans  &trans  &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9                &kp NUMBER_0           &trans
-&trans  &trans        &trans        &trans        &trans        &trans                        &trans      &trans                  &trans        &trans        &trans        &trans                &trans                 &trans
-&trans  &trans        &trans        &trans        &trans                      &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans        &trans                &trans                 &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans                                      &trans  &trans        &trans            &trans             &trans                &trans                 &trans
+&trans  &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT   &trans                                      &trans  &kp CARET     &kp AMPS          &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&to 0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans  &trans  &trans      &trans  &trans  &trans  &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8       &kp N9                &kp NUMBER_0           &trans
+&trans  &trans        &trans        &trans        &trans        &trans                        &trans      &trans                  &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &trans        &trans        &trans        &trans                      &trans  &trans  &trans      &trans  &trans  &trans                &kp LESS_THAN     &kp GREATER_THAN   &trans                &trans                 &trans
             >;
         };
     };
