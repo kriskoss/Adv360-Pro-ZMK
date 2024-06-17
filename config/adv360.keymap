@@ -45,11 +45,6 @@
             key-positions = <53 68>;
         };
 
-        moFNlayer {
-            bindings = <&mo 2>;
-            key-positions = <73 72>;
-        };
-
         LeftClick {
             bindings = <&mkp MB1>;
             key-positions = <71 72>;
@@ -70,7 +65,7 @@
 &kp TAB     &kp Q            &lt 4 W      &hm RIGHT_ALT E  &hm LWIN R   &kp T       &tog 4                                                          &kp TAB          &kp Y       &hm LEFT_WIN U  &hm RALT I  &lt 4 O       &kp P                &kp BSLH
 &kp ESCAPE  &hm LSHFT A      &hm LCTRL S  &lt 2 D          &hm LSHFT F  &hm LALT G  &tog 2    &kp LCTRL  &kp LWIN       &kp LEFT_WIN   &kp RCTRL    &kp TAB          &hm LALT H  &hm RSHFT J     &kp K       &hm RCTRL L   &hm RSHFT SEMICOLON  &kp SQT
 &kp LSHFT   &hm LSHFT SLASH  &kp Z        &hm LALT X       &lt 1 C      &kp V                            &kp LSHFT      &kp RSHFT                                    &kp B       &kp N           &hm LALT M  &kp COMMA     &hm LCTRL DOT        &kp RSHFT
-&kp LCTRL   &mo 2            &kp LWIN     &kp LALT         &kp SPACE                &kp BSPC  &kp DEL    &kp LALT       &kp RIGHT_ALT  &lt 2 ENTER  &hm RSHFT SPACE              &kp LEFT_ARROW  &kp DOWN    &kp UP_ARROW  &kp RIGHT            &kp EQUAL
+&kp LCTRL   &mo 2            &kp LWIN     &kp LALT         &kp SPACE                &kp BSPC  &kp DEL    &kp LALT       &kp RIGHT_ALT  &lt 2 ENTER  &hm RSHFT SPACE              &kp LEFT_ARROW  &kp DOWN    &kp UP_ARROW  &kp RIGHT            &lt 2 EQUAL
             >;
         };
 
