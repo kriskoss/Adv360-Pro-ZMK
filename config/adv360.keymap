@@ -37,17 +37,12 @@
 
         TrackballScrollMB4 {
             bindings = <&mkp MB4>;
-            key-positions = <55 56 57>;
+            key-positions = <71 72 73>;
         };
 
         fancyFromRightThumbC {
             bindings = <&kp LS(LALT)>;
             key-positions = <53 68>;
-        };
-
-        MouswRightClick {
-            bindings = <&mkp RCLK>;
-            key-positions = <72 71>;
         };
 
         moFNlayer {
@@ -57,12 +52,12 @@
 
         LeftClick {
             bindings = <&mkp MB1>;
-            key-positions = <55 56>;
+            key-positions = <71 72>;
         };
 
         RightClick {
             bindings = <&mkp MB2>;
-            key-positions = <56 57>;
+            key-positions = <72 73>;
         };
     };
 
