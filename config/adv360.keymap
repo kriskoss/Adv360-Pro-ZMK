@@ -81,11 +81,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2      &kp F3     &kp F4  &kp F5     &kp F6  &tog 1                                                   &mo 3    &kp F7    &kp F8        &kp F9            &kp F10    &kp F11    &kp F12
-&trans  &none       &none      &none   &none      &none   &none                                                    &trans   &none     &kp U         &kp I             &none      &none      &kp C_MUTE
-&to 0   &kp LSHIFT  &kp LCTRL  &trans  &kp LSHFT  &none   &none   &trans  &kp CAPS      &kp BACKSPACE  &kp DELETE  &trans   &kp LEFT  &kp DOWN      &kp UP_ARROW      &kp RIGHT  &kp RSHFT  &kp C_VOLUME_UP
-&trans  &kp LSHFT   &kp Z      &kp X   &kp C      &kp V                   &trans        &kp PAGE_UP                         &kp B     &none         &kp M             &none      &kp RSHFT  &kp C_VOL_DN
-&trans  &to 0       &trans     &trans  &none              &trans  &trans  &trans        &kp PG_DN      &kp HOME    &kp END            &kp LS(HOME)  &kp C_PLAY_PAUSE  &trans     &kp END    &none
+&kp F1  &kp F2      &kp F3     &kp F4  &kp F5     &kp F6  &tog 1                                                   &mo 3    &kp F7    &kp F8        &kp F9            &kp F10    &kp F11        &kp F12
+&trans  &none       &none      &none   &none      &none   &none                                                    &trans   &none     &kp U         &kp I             &none      &none          &kp C_MUTE
+&to 0   &kp LSHIFT  &kp LCTRL  &trans  &kp LSHFT  &none   &none   &trans  &kp CAPS      &kp BACKSPACE  &kp DELETE  &trans   &kp LEFT  &kp DOWN      &kp UP_ARROW      &kp RIGHT  &kp SEMICOLON  &kp C_VOLUME_UP
+&trans  &kp LSHFT   &kp Z      &kp X   &kp C      &kp V                   &trans        &kp PAGE_UP                         &kp B     &none         &kp M             &none      &kp PERIOD     &kp C_VOL_DN
+&trans  &to 0       &trans     &trans  &none              &trans  &trans  &trans        &kp PG_DN      &kp HOME    &kp END            &kp LS(HOME)  &kp C_PLAY_PAUSE  &trans     &kp END        &none
             >;
         };
 
