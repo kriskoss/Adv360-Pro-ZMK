@@ -47,7 +47,7 @@
 
         MouswRightClick {
             bindings = <&mkp RCLK>;
-            key-positions = <72 73>;
+            key-positions = <72 71>;
         };
 
         moFNlayer {
