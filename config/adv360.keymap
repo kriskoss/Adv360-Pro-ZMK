@@ -39,6 +39,16 @@
             bindings = <&mkp MB4>;
             key-positions = <71 72>;
         };
+
+        fancyFromRightThumbC {
+            bindings = <&kp LS(LALT)>;
+            key-positions = <53 68>;
+        };
+
+        fancyFromRightJL {
+            bindings = <&kp LS(LALT)>;
+            key-positions = <41 43>;
+        };
     };
 
     keymap {
