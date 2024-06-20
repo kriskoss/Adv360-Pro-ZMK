@@ -104,6 +104,11 @@
             bindings = <&kp LA(SPACE)>;
             key-positions = <63 64>;
         };
+
+        altTab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <14 63>;
+        };
     };
 
     keymap {
