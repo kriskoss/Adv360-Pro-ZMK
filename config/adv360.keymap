@@ -37,7 +37,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_ARROW>, <&kp LC(LEFT_ARROW)>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <270>;
         };
 
         jumpWordRight: jumpWordRight {
@@ -46,7 +46,14 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT>, <&kp LC(RIGHT)>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <270>;
+        };
+
+        capslock: capslock {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CAPSLOCK";
+            #binding-cells = <0>;
+            bindings = <&kp LSHFT>, <&kp CAPS>, <&caps_word>;
         };
     };
 
