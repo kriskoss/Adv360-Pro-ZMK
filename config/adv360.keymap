@@ -54,6 +54,16 @@
             bindings = <&mkp MB2>;
             key-positions = <72 73>;
         };
+
+        XF_fancyFM {
+            bindings = <&kp LS(LALT)>;
+            key-positions = <49 32>;
+        };
+
+        JM_fancyFM {
+            bindings = <&kp LS(LALT)>;
+            key-positions = <41 56>;
+        };
     };
 
     keymap {
