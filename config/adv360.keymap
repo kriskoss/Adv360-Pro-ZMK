@@ -37,7 +37,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_ARROW>, <&kp LC(LEFT_ARROW)>;
 
-            tapping-term-ms = <120>;
+            tapping-term-ms = <200>;
         };
 
         jumpWordRight: jumpWordRight {
@@ -46,7 +46,7 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT>, <&kp LC(RIGHT)>;
 
-            tapping-term-ms = <120>;
+            tapping-term-ms = <200>;
         };
     };
 
