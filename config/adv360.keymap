@@ -92,7 +92,7 @@
 
         capslock_AD {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <31 33>;
+            key-positions = <31 65>;
         };
 
         FancyFM {
