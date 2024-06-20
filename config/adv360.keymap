@@ -101,11 +101,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE   &kp N1           &kp N2       &kp N3           &kp N4       &kp N5  &tog 1                                                          &mo 3            &kp N6  &kp N7          &kp N8      &kp N9        &kp N0         &kp MINUS
-&kp TAB     &kp Q            &lt 4 W      &hm RIGHT_ALT E  &hm LWIN R   &kp T   &tog 4                                                          &none            &kp Y   &hm LEFT_WIN U  &hm RALT I  &lt 4 O       &kp P          &kp BSLH
-&kp ESCAPE  &hm LSHFT A      &hm LCTRL S  &lt 2 D          &hm LSHFT F  &kp G   &tog 2    &kp LCTRL  &kp LWIN       &kp LEFT_WIN   &kp RCTRL    &kp TAB          &kp H   &hm RSHFT J     &kp K       &hm RCTRL L   &kp SEMICOLON  &kp SQT
-&kp LSHFT   &hm LSHFT SLASH  &kp Z        &hm LALT X       &lt 1 C      &kp V                        &kp LSHFT      &kp RSHFT                                    &kp B   &kp N           &hm LALT M  &kp COMMA     &hm LCTRL DOT  &kp RSHFT
-&kp LCTRL   &mo 2            &kp LWIN     &kp LALT         &kp SPACE            &kp BSPC  &kp DEL    &kp LALT       &kp RIGHT_ALT  &lt 2 ENTER  &hm RSHFT SPACE          &kp LEFT_ARROW  &kp DOWN    &kp UP_ARROW  &kp RIGHT      &lt 2 EQUAL
+&kp GRAVE   &kp N1           &kp N2       &kp N3               &kp N4       &kp N5  &tog 1                                                          &mo 3            &kp N6  &kp N7          &kp N8      &kp N9        &kp N0         &kp MINUS
+&kp TAB     &kp Q            &lt 4 W      &hm RIGHT_ALT E      &hm LWIN R   &kp T   &tog 4                                                          &none            &kp Y   &hm LEFT_WIN U  &hm RALT I  &lt 4 O       &kp P          &kp BSLH
+&kp ESCAPE  &hm LSHFT A      &hm LCTRL S  &lt 2 D              &hm LSHFT F  &kp G   &tog 2    &kp LCTRL  &kp LWIN       &kp LEFT_WIN   &kp RCTRL    &kp TAB          &kp H   &hm RSHFT J     &kp K       &hm RCTRL L   &kp SEMICOLON  &kp SQT
+&kp LSHFT   &hm LSHFT SLASH  &kp Z        &hm LALT X           &lt 1 C      &kp V                        &kp LSHFT      &kp RSHFT                                    &kp B   &kp N           &hm LALT M  &kp COMMA     &hm LCTRL DOT  &kp RSHFT
+&kp LCTRL   &mo 2            &kp LWIN     &hm LALT LEFT_ARROW  &kp RIGHT            &kp BSPC  &kp DEL    &kp LALT       &kp RIGHT_ALT  &lt 2 ENTER  &hm RSHFT SPACE          &kp LEFT_ARROW  &kp DOWN    &kp UP_ARROW  &kp RIGHT      &lt 2 EQUAL
             >;
         };
 
@@ -123,7 +123,7 @@
             bindings = <
 &kp F1  &kp F2     &kp F3     &kp F4  &kp F5     &kp F6        &tog 1                                                                   &mo 3    &kp F7            &kp F8    &kp F9        &kp F10         &kp F11        &kp F12
 &trans  &none      &mo 4      &none   &none      &caps_word    &kp C_BRI_UP                                                             &trans   &none             &kp U     &kp I         &mo 4           &none          &kp C_MUTE
-&to 0   &kp CAPS   &kp LCTRL  &trans  &kp LSHFT  &kp CAPSLOCK  &kp C_BRIGHTNESS_DEC  &kp CAPS  &kp CAPS      &kp BACKSPACE  &kp DELETE  &trans   &jumpWordLeft     &kp DOWN  &kp UP_ARROW  &jumpWordRight  &kp SEMICOLON  &kp C_VOLUME_UP
+&to 0   &none      &kp LCTRL  &trans  &kp LSHFT  &kp CAPSLOCK  &kp C_BRIGHTNESS_DEC  &kp CAPS  &kp CAPS      &kp BACKSPACE  &kp DELETE  &trans   &jumpWordLeft     &kp DOWN  &kp UP_ARROW  &jumpWordRight  &kp SEMICOLON  &kp C_VOLUME_UP
 &trans  &kp LSHFT  &none      &none   &mo 1      &none                                         &trans        &kp PAGE_UP                         &kp C_PLAY_PAUSE  &none     &kp M         &none           &kp PERIOD     &kp C_VOL_DN
 &trans  &to 0      &trans     &trans  &none                    &trans                &trans    &trans        &kp PG_DN      &kp HOME    &kp END                    &kp HOME  &trans        &trans          &kp END        &none
             >;
