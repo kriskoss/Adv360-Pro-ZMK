@@ -116,11 +116,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE   &kp N1           &kp N2       &kp N3               &kp N4       &kp N5  &tog 1                                                          &mo 3            &kp N6  &kp N7          &kp N8        &kp N9            &kp N0         &kp MINUS
-&kp TAB     &kp Q            &lt 4 W      &hm RIGHT_ALT E      &hm LWIN R   &kp T   &tog 4                                                          &kp ESCAPE       &kp Y   &hm LEFT_WIN U  &hm RALT I    &lt 4 O           &kp P          &kp BSLH
-&kp ESCAPE  &hm LSHFT A      &hm LCTRL S  &lt 2 D              &hm LSHFT F  &kp G   &tog 2    &kp LCTRL  &kp CAPS       &kp LEFT_WIN   &kp RCTRL    &kp TAB          &kp H   &hm RSHFT J     &kp K         &hm RCTRL L       &kp SEMICOLON  &kp SQT
-&kp LSHFT   &hm LSHFT SLASH  &kp Z        &hm LALT X           &lt 1 C      &kp V                        &kp LSHFT      &kp RSHFT                                    &kp B   &kp N           &hm LALT M    &kp COMMA         &hm LCTRL DOT  &kp RSHFT
-&kp LCTRL   &mo 2            &kp LWIN     &hm LALT LEFT_ARROW  &kp RIGHT            &kp BSPC  &kp DEL    &kp LALT       &kp RIGHT_ALT  &lt 2 ENTER  &hm RSHFT SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_BRACKET  &kp RBKT       &lt 2 EQUAL
+&kp GRAVE   &kp N1           &kp N2       &kp N3               &kp N4       &kp N5  &tog 1                                                          &mo 3            &kp N6       &kp N7          &kp N8        &kp N9            &kp N0         &kp MINUS
+&kp TAB     &kp Q            &lt 4 W      &hm RIGHT_ALT E      &hm LWIN R   &kp T   &tog 4                                                          &kp ESCAPE       &kp Y        &hm LEFT_WIN U  &hm RALT I    &lt 4 O           &kp P          &kp BSLH
+&kp ESCAPE  &hm LSHFT A      &hm LCTRL S  &lt 2 D              &hm LSHFT F  &kp G   &tog 2    &kp LCTRL  &kp CAPS       &kp LEFT_WIN   &kp RCTRL    &kp TAB          &hm LSHFT H  &hm RSHFT J     &kp K         &hm RCTRL L       &kp SEMICOLON  &kp SQT
+&kp LSHFT   &hm LSHFT SLASH  &kp Z        &hm LALT X           &lt 1 C      &kp V                        &kp LSHFT      &kp RSHFT                                    &kp B        &kp N           &hm LALT M    &kp COMMA         &hm LCTRL DOT  &kp RSHFT
+&kp LCTRL   &mo 2            &kp LWIN     &hm LALT LEFT_ARROW  &kp RIGHT            &kp BSPC  &kp DEL    &kp LALT       &kp RIGHT_ALT  &lt 2 ENTER  &hm RSHFT SPACE               &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_BRACKET  &kp RBKT       &lt 2 EQUAL
             >;
         };
 
