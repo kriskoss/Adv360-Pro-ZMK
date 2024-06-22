@@ -109,16 +109,6 @@
             bindings = <&kp LA(TAB)>;
             key-positions = <14 63>;
         };
-
-        Lshift+LWinCombo {
-            bindings = <&kp LS(LWIN)>;
-            key-positions = <46 62>;
-        };
-
-        Lctrl+Lwin__Combo {
-            bindings = <&kp LC(LWIN)>;
-            key-positions = <60 62>;
-        };
     };
 
     keymap {
