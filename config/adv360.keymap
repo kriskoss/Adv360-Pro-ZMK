@@ -156,11 +156,11 @@
 
         numbers_and_sym_4 {
             bindings = <
-&trans  &trans           &trans  &trans    &trans      &trans       &trans                                      &trans  &kp EXCLAMATION  &kp AT                &kp HASH               &kp DOLLAR            &kp PERCENT            &trans
-&trans  &none            &none   &none     &none       &none        &trans                                      &trans  &kp TILDE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&to 0   &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET        &kp AMPS              &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans           &trans  &trans    &trans      &trans                       &trans      &trans                  &kp GRAVE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA             &kp PERIOD             &trans
-&trans  &trans           &trans  &trans    &trans                   &trans  &trans  &trans      &trans  &trans  &trans                   &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH             &kp QUESTION           &trans
+&trans  &kp CARET         &kp AMPERSAND      &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &trans                                      &trans  &kp EXCLAMATION    &kp AT                &kp HASH               &kp DOLLAR            &kp PERCENT            &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES      &trans                                      &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&to 0   &kp EXCLAMATION   &kp AT             &kp HASH              &kp DOLLAR             &kp PERCENT            &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET          &kp AMPS              &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp COMMA         &kp DOT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SQT                                &trans      &trans                  &kp SQT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA             &kp PERIOD             &trans
+&trans  &kp GRAVE         &kp TILDE          &kp LESS_THAN         &kp GREATER_THAN                              &trans  &trans  &trans      &trans  &trans  &trans                     &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH             &kp QUESTION           &trans
             >;
         };
     };
