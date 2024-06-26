@@ -138,6 +138,8 @@
         LetterE {
             bindings = <&kp RA(E)>;
             key-positions = <24 17>;
+            layers = <0>;
+            timeout-ms = <500>;
         };
 
         LetterC {
