@@ -113,35 +113,35 @@
         LetterL {
             bindings = <&kp RA(L)>;
             key-positions = <17 43>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
             layers = <0>;
         };
 
         LetterO {
             bindings = <&kp RA(O)>;
             key-positions = <17 25>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
             layers = <0>;
         };
 
         LetterN {
             bindings = <&kp RA(N)>;
             key-positions = <17 55>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
             layers = <0>;
         };
 
         LetterZ {
             bindings = <&kp RA(Z)>;
             key-positions = <24 48>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
             layers = <0>;
         };
 
         LetterZi {
             bindings = <&kp RA(X)>;
             key-positions = <24 49>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
             layers = <0>;
         };
 
@@ -149,27 +149,27 @@
             bindings = <&kp RA(E)>;
             key-positions = <24 17>;
             layers = <0>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
         };
 
         LetterC {
             bindings = <&kp RA(C)>;
             key-positions = <24 50>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
             layers = <0>;
         };
 
         LetterS {
             bindings = <&kp RA(S)>;
             key-positions = <24 30>;
-            timeout-ms = <120>;
+            timeout-ms = <100>;
             layers = <0>;
         };
 
         LetterA_ {
             bindings = <&kp RA(A)>;
             key-positions = <24 29>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
             layers = <0>;
         };
     };
