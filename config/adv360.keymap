@@ -219,11 +219,11 @@
 
         numbers_and_sym_4 {
             bindings = <
-&trans  &none            &none          &none         &none       &none                 &trans                                      &trans  &kp GRAVE          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION    &kp PIPE              &trans
-&trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp SLASH   &kp NON_US_BACKSLASH  &trans                                      &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp MINUS             &trans
-&to 0   &kp EXCLAMATION  &kp AT         &kp HASH      &kp DOLLAR  &kp PERCENT           &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET          &kp AMPS              &kp ASTERISK           &kp EQUAL       &kp PLUS              &trans
-&trans  &kp COMMA        &kp DOT        &kp QUESTION  &kp PIPE    &kp SQT                               &trans      &trans                  &kp SQT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA       &kp PERIOD            &trans
-&trans  &kp GRAVE        &kp TILDE      &trans        &trans                            &trans  &trans  &trans      &trans  &trans  &trans                     &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH       &kp NON_US_BACKSLASH  &trans
+&trans  &none            &none          &kp QUESTION       &kp PIPE          &none                 &trans                                      &trans  &kp GRAVE          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION    &kp PIPE              &trans
+&trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK       &kp SLASH         &kp NON_US_BACKSLASH  &trans                                      &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp MINUS             &trans
+&to 0   &kp EXCLAMATION  &kp AT         &kp HASH           &kp DOLLAR        &kp PERCENT           &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET          &kp AMPS              &kp ASTERISK           &kp EQUAL       &kp PLUS              &trans
+&trans  &kp COMMA        &kp DOT        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE                             &trans      &trans                  &kp SQT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA       &kp PERIOD            &trans
+&trans  &kp GRAVE        &kp TILDE      &trans             &trans                                  &trans  &trans  &trans      &trans  &trans  &trans                     &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH       &kp NON_US_BACKSLASH  &trans
             >;
         };
     };
