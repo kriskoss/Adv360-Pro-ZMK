@@ -162,7 +162,7 @@
         LetterS {
             bindings = <&kp RA(S)>;
             key-positions = <24 30>;
-            timeout-ms = <200>;
+            timeout-ms = <120>;
             layers = <0>;
         };
 
