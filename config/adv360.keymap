@@ -149,7 +149,7 @@
             bindings = <&kp RA(E)>;
             key-positions = <24 17>;
             layers = <0>;
-            timeout-ms = <300>;
+            timeout-ms = <200>;
         };
 
         LetterC {
@@ -162,7 +162,7 @@
         LetterS {
             bindings = <&kp RA(S)>;
             key-positions = <24 30>;
-            timeout-ms = <300>;
+            timeout-ms = <200>;
             layers = <0>;
         };
 
