@@ -140,7 +140,7 @@
             key-positions = <24 17>;
         };
 
-        LetterA {
+        LetterC {
             bindings = <&kp RA(C)>;
             key-positions = <24 50>;
         };
