@@ -111,11 +111,11 @@
 
         default_layer {
             bindings = <
-&kp CAPS    &kp N1           &kp N2       &kp N3           &kp N4       &kp N5       &tog 1                                                                               &mo 3            &kp N6       &kp N7          &kp N8        &kp N9            &kp N0         &kp MINUS
-&kp TAB     &kp Q            &lt 4 W      &hm RIGHT_ALT E  &lt 1 R      &kp T        &kp ESCAPE                                                                           &kp ESCAPE       &kp Y        &kp U           &hm RALT I    &lt 4 O           &kp P          &kp BSLH
-&kp ESCAPE  &hm LSHFT A      &hm LCTRL S  &lt 2 D          &hm LSHFT F  &hm LSHFT G  &kp TAB              &kp LCTRL   &kp LEFT_WIN       &kp LEFT_WIN        &kp RCTRL    &kp TAB          &hm LSHFT H  &hm RSHFT J     &lt 2 K       &hm RCTRL L       &kp SEMICOLON  &kp SQT
-&kp LSHFT   &hm LSHFT SLASH  &kp Z        &hm LALT X       &lt 1 C      &kp V                                         &hm LSHFT END      &hm RSHFT PAGE_UP                                 &kp B        &kp N           &hm LALT M    &kp COMMA         &hm LCTRL DOT  &kp RSHFT
-&kp LCTRL   &mo 2            &kp CAPS     &kp LEFT         &kp RIGHT                 &hm LSHFT BACKSPACE  &kp DELETE  &hm LALT HOME      &hm LALT PAGE_DOWN  &lt 2 ENTER  &hm RSHFT SPACE               &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_BRACKET  &kp RBKT       &lt 2 EQUAL
+&kp CAPS    &kp N1           &kp N2       &kp N3           &kp N4       &kp N5       &tog 1                                                                               &mo 3            &kp N6       &kp N7          &kp N8        &kp N9       &kp N0                  &kp MINUS
+&kp TAB     &kp Q            &lt 4 W      &hm RIGHT_ALT E  &lt 1 R      &kp T        &kp ESCAPE                                                                           &kp ESCAPE       &kp Y        &kp U           &hm RALT I    &lt 4 O      &kp P                   &kp BSLH
+&kp ESCAPE  &hm LSHFT A      &hm LCTRL S  &lt 2 D          &hm LSHFT F  &hm LSHFT G  &kp TAB              &kp LCTRL   &kp LEFT_WIN       &kp LEFT_WIN        &kp RCTRL    &kp TAB          &hm LSHFT H  &hm RSHFT J     &lt 2 K       &hm RCTRL L  &kp SEMICOLON           &kp SQT
+&kp LSHFT   &hm LSHFT SLASH  &kp Z        &hm LALT X       &lt 1 C      &kp V                                         &hm LSHFT END      &hm RSHFT PAGE_UP                                 &kp B        &kp N           &hm LALT M    &kp COMMA    &hm LCTRL LEFT_BRACKET  &kp RSHFT
+&kp LCTRL   &mo 2            &kp CAPS     &kp LEFT         &kp RIGHT                 &hm LSHFT BACKSPACE  &kp DELETE  &hm LALT HOME      &hm LALT PAGE_DOWN  &lt 2 ENTER  &hm RSHFT SPACE               &kp DOWN_ARROW  &kp UP_ARROW  &kp DOT      &kp RBKT                &lt 2 EQUAL
             >;
         };
 
@@ -154,8 +154,8 @@
 &trans  &none            &kp TILDE      &kp QUESTION       &kp PIPE          &none                 &trans                                      &trans  &kp GRAVE          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION    &none                 &trans
 &trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK       &kp SLASH         &kp NON_US_BACKSLASH  &trans                                      &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL       &kp PLUS              &trans
 &to 0   &kp EXCLAMATION  &kp AT         &kp HASH           &kp DOLLAR        &kp PERCENT           &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET          &kp AMPS              &kp ASTERISK           &kp UNDERSCORE  &kp MINUS             &trans
-&trans  &none            &none          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE                             &trans      &trans                  &kp SQT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA       &kp PERIOD            &trans
-&trans  &none            &none          &trans             &trans                                  &trans  &trans  &trans      &trans  &trans  &trans                     &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH       &kp NON_US_BACKSLASH  &kp PIPE
+&trans  &none            &none          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE                             &trans      &trans                  &kp SQT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA       &kp SLASH             &trans
+&trans  &none            &none          &trans             &trans                                  &trans  &trans  &trans      &trans  &trans  &trans                     &kp LESS_THAN         &kp GREATER_THAN       &kp DOT         &kp NON_US_BACKSLASH  &kp PIPE
             >;
         };
     };
