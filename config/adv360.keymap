@@ -75,9 +75,9 @@
             key-positions = <72 73>;
         };
 
-        XF_fancyFM {
+        fancyFM_01 {
             bindings = <&kp LS(LALT)>;
-            key-positions = <49 32>;
+            key-positions = <0 1>;
         };
 
         JM_fancyFM {
