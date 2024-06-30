@@ -80,11 +80,6 @@
             key-positions = <0 1>;
         };
 
-        JM_fancyFM {
-            bindings = <&kp LS(LALT)>;
-            key-positions = <41 56>;
-        };
-
         FlowLauncher {
             bindings = <&kp LA(SPACE)>;
             key-positions = <63 64>;
@@ -98,6 +93,11 @@
         FancyFMRightThumb {
             bindings = <&kp LS(LALT)>;
             key-positions = <68 70>;
+        };
+
+        FanyFM-0 {
+            bindings = <&kp LS(LALT)>;
+            key-positions = <12 13>;
         };
     };
 
