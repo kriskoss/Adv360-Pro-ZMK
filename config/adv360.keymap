@@ -131,11 +131,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2     &kp F3  &kp F4       &kp F5       &kp F6  &tog 1                                                           &mo 3       &kp F7            &kp F8    &kp F9  &kp F10         &kp F11        &kp F12
-&trans  &none      &mo 4   &none        &none        &none   &kp C_BRI_UP                                                     &trans      &none             &kp U     &kp I   &mo 4           &none          &kp C_MUTE
-&to 0   &none      &none   &none        &none        &none   &kp C_BRIGHTNESS_DEC  &trans  &trans      &none   &trans         &trans      &kp LEFT_ARROW    &kp LALT  &none   &kp LCTRL       &kp SEMICOLON  &kp C_VOLUME_UP
-&trans  &none      &none   &none        &none        &none                                 &trans      &trans                             &kp C_PLAY_PAUSE  &none     &kp M   &none           &kp PERIOD     &kp C_VOL_DN
-&trans  &kp GRAVE  &none   &kp LS(TAB)  &kp LA(TAB)          &trans                &trans  &trans      &trans  &kp BACKSPACE  &kp DELETE                    &trans    &trans  &kp LEFT_ARROW  &kp RIGHT      &kp CAPSLOCK
+&kp F1  &kp F2     &kp F3  &kp F4       &kp F5       &kp F6  &tog 1                                                           &mo 3       &kp F7            &kp F8    &kp F9    &kp F10         &kp F11        &kp F12
+&trans  &none      &mo 4   &none        &none        &none   &kp C_BRI_UP                                                     &trans      &none             &none     &none     &none           &none          &kp C_MUTE
+&to 0   &none      &none   &none        &none        &none   &kp C_BRIGHTNESS_DEC  &trans  &trans      &none   &trans         &trans      &none             &kp LALT  &trans    &kp LCTRL       &kp SEMICOLON  &kp C_VOLUME_UP
+&trans  &none      &none   &none        &none        &none                                 &trans      &trans                             &kp C_PLAY_PAUSE  &none     &kp LALT  &none           &kp PERIOD     &kp C_VOL_DN
+&trans  &kp GRAVE  &none   &kp LS(TAB)  &kp LA(TAB)          &trans                &trans  &trans      &trans  &kp BACKSPACE  &kp DELETE                    &trans    &trans    &kp LEFT_ARROW  &kp RIGHT      &none
             >;
         };
 
