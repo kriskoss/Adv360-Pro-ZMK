@@ -65,11 +65,6 @@
             key-positions = <71 72 73>;
         };
 
-        fancyFromRightThumbC {
-            bindings = <&kp LS(LALT)>;
-            key-positions = <53 68>;
-        };
-
         LeftClick {
             bindings = <&mkp MB1>;
             key-positions = <71 72>;
@@ -90,19 +85,19 @@
             key-positions = <41 56>;
         };
 
-        capslock_AD {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <31 65>;
-        };
-
-        FancyFM {
-            bindings = <&kp LA(LSHFT)>;
-            key-positions = <46 63>;
-        };
-
         FlowLauncher {
             bindings = <&kp LA(SPACE)>;
             key-positions = <63 64>;
+        };
+
+        FancyFMLeftThumb {
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <67 65>;
+        };
+
+        FancyFMRightThumb {
+            bindings = <&kp LS(LALT)>;
+            key-positions = <68 70>;
         };
     };
 
