@@ -99,6 +99,11 @@
             bindings = <&kp LS(LALT)>;
             key-positions = <12 13>;
         };
+
+        FancyFMjm {
+            bindings = <&kp LS(LALT)>;
+            key-positions = <41 56>;
+        };
     };
 
     keymap {
