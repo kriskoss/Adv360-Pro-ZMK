@@ -152,7 +152,7 @@
         numbers_and_sym_4 {
             bindings = <
 &trans  &none            &kp TILDE      &kp QUESTION       &kp PIPE          &none                 &trans                                      &trans  &kp GRAVE          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION    &none                 &trans
-&trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK       &kp SLASH         &kp NON_US_BACKSLASH  &trans                                      &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_EQUAL    &kp PLUS              &trans
+&trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK       &kp SLASH         &kp NON_US_BACKSLASH  &trans                                      &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL       &kp PLUS              &trans
 &to 0   &kp EXCLAMATION  &kp AT         &kp HASH           &kp DOLLAR        &kp PERCENT           &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET          &kp AMPS              &kp ASTERISK           &kp UNDERSCORE  &kp KP_MINUS          &trans
 &trans  &none            &none          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE                             &trans      &trans                  &kp SQT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA       &kp SLASH             &trans
 &trans  &none            &none          &trans             &trans                                  &trans  &trans  &trans      &trans  &trans  &trans                     &kp LESS_THAN         &kp GREATER_THAN       &kp DOT         &kp NON_US_BACKSLASH  &kp PIPE
