@@ -112,7 +112,7 @@
         default_layer {
             bindings = <
 &kp GRAVE   &kp N1           &kp N2    &kp N3           &kp N4     &kp N5       &tog 1                                                                               &mo 3            &kp N6       &kp N7          &kp N8        &kp N9     &kp N0                  &kp MINUS
-&kp TAB     &kp Q            &lt 4 W   &hm RIGHT_ALT E  &lt 1 R    &kp T        &kp LS(TAB)                                                                          &kp ESCAPE       &kp Y        &kp U           &hm RALT I    &lt 4 O    &kp P                   &kp BSLH
+&kp TAB     &kp Q            &lt 4 W   &hm RIGHT_ALT E  &lt 1 R    &kp T        &kp LS(TAB)                                                                          &kp ESCAPE       &kp Y        &hm LS(LWIN) U  &hm RALT I    &lt 4 O    &kp P                   &kp BSLH
 &kp ESCAPE  &hm LSHFT A      &kp S     &lt 2 D          &kp F      &hm LSHFT G  &kp TAB              &kp LCTRL   &kp LEFT_WIN       &kp LEFT_WIN        &kp RCTRL    &kp TAB          &hm LSHFT H  &kp J           &lt 2 K       &kp L      &kp SEMICOLON           &kp SQT
 &kp LSHFT   &hm LSHFT SLASH  &kp Z     &hm LALT X       &lt 1 C    &kp V                                         &hm LSHFT END      &hm RSHFT PAGE_UP                                 &kp B        &kp N           &hm LALT M    &kp COMMA  &hm LCTRL LEFT_BRACKET  &kp RSHFT
 &kp LCTRL   &mo 2            &kp CAPS  &kp LEFT         &kp RIGHT               &hm LSHFT BACKSPACE  &kp DELETE  &hm LALT HOME      &hm LALT PAGE_DOWN  &lt 2 ENTER  &hm RSHFT SPACE               &kp DOWN_ARROW  &kp UP_ARROW  &kp DOT    &kp RBKT                &lt 2 EQUAL
