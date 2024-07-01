@@ -104,6 +104,16 @@
             bindings = <&kp LS(LALT)>;
             key-positions = <41 56>;
         };
+
+        altGrR {
+            bindings = <&kp RALT>;
+            key-positions = <23 24>;
+        };
+
+        altGrL {
+            bindings = <&kp RALT>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
