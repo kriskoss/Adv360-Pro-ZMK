@@ -131,11 +131,11 @@
 
         layer_keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &none   &kp LS(KP_NUM)  &kp MINUS     &kp ASTERISK  &kp PLUS      &none      &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none   &none           &kp N7        &kp N8        &kp N9        &kp PLUS   &none
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &none           &kp N4        &kp N5        &kp NUMBER_6  &kp COLON  &none
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                     &kp ENTER       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp N0                  &kp N0        &kp COMMA     &kp PERIOD    &kp SPACE  &kp EQUAL
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                        &none   &kp LS(KP_NUM)  &kp MINUS     &kp ASTERISK  &kp PLUS      &none      &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                         &none   &none           &kp N7        &kp N8        &kp N9        &kp PLUS   &none
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp BACKSPACE  &kp DELETE  &none   &none           &kp N4        &kp N5        &kp NUMBER_6  &kp COLON  &none
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                          &kp ENTER       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN      &kp ENTER   &kp N0                  &kp N0        &kp COMMA     &kp PERIOD    &kp SPACE  &kp EQUAL
             >;
         };
 
@@ -166,6 +166,16 @@
 &to 0   &kp EXCLAMATION  &kp AT         &kp HASH           &kp DOLLAR        &kp PERCENT           &trans  &trans  &trans      &kp BACKSPACE  &kp DEL  &trans  &kp GRAVE          &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp UNDERSCORE  &kp KP_MINUS          &trans
 &trans  &none            &none          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE                             &trans      &trans                          &none              &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA       &kp SLASH             &trans
 &trans  &none            &none          &trans             &trans                                  &trans  &trans  &trans      &trans         &trans   &trans                     &kp LESS_THAN         &kp GREATER_THAN       &kp DOT         &kp NON_US_BACKSLASH  &kp PIPE
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
