@@ -141,11 +141,11 @@
 
         layer_fn {
             bindings = <
-&none   &kp F1  &kp F2           &kp F3  &kp F4  &kp F5           &none                                                                &none   &kp F6            &kp F7        &kp F8        &kp F9        &kp F10    &kp F11
-&trans  &none   &none            &none   &none   &none            &kp C_BRI_UP                                                         &none   &kp PLUS          &kp N7        &kp N8        &kp N9        &none      &kp F12
-&to 0   &none   &kp PRINTSCREEN  &none   &none   &none            &kp C_BRIGHTNESS_DEC  &trans  &trans      &kp BACKSPACE  &kp DELETE  &trans  &kp MINUS         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON  &kp C_VOLUME_UP
-&trans  &none   &none            &none   &none   &kp PRINTSCREEN                                &trans      &trans                             &kp C_PLAY_PAUSE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp C_VOL_DN
-&trans  &none   &none            &none   &none                    &trans                &trans  &trans      &trans         &kp ENTER   &kp N0                    &trans        &trans        &kp PERIOD    &none      &kp C_MUTE
+&none   &kp F1  &kp F2           &kp F3      &kp F4  &kp F5           &none                                                                &none   &kp F6            &kp F7        &kp F8        &kp F9        &kp F10    &kp F11
+&trans  &kp N0  &kp UNDERSCORE   &kp DOLLAR  &none   &none            &kp C_BRI_UP                                                         &none   &kp PLUS          &kp N7        &kp N8        &kp N9        &none      &kp F12
+&to 0   &none   &kp PRINTSCREEN  &none       &none   &none            &kp C_BRIGHTNESS_DEC  &trans  &trans      &kp BACKSPACE  &kp DELETE  &trans  &kp MINUS         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON  &kp C_VOLUME_UP
+&trans  &none   &none            &none       &none   &kp PRINTSCREEN                                &trans      &trans                             &kp C_PLAY_PAUSE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp C_VOL_DN
+&trans  &none   &none            &none       &none                    &trans                &trans  &trans      &trans         &kp ENTER   &kp N0                    &trans        &trans        &kp PERIOD    &none      &kp C_MUTE
             >;
         };
 
