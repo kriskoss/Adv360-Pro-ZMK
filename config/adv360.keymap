@@ -122,8 +122,8 @@
         default_layer {
             bindings = <
 &kp GRAVE      &kp N1     &kp N2    &kp N3      &kp N4     &kp N5  &mo 1                                                                                  &mo 3            &kp N6  &kp N7          &kp N8        &kp N9     &kp N0            &kp MINUS
-&kp TAB        &kp Q      &kp W     &kp E       &kp R      &kp T   &kp LS(TAB)                                                                            &kp LS(TAB)      &kp Y   &kp U           &kp I         &kp O      &kp P             &kp BSLH
-&kp ESCAPE     &kp A      &kp S     &lt 4 D     &kp F      &kp G   &kp TAB              &kp LCTRL     &kp LWIN           &kp LEFT_WIN        &kp RCTRL    &kp TAB          &kp H   &kp J           &lt 4 K       &kp L      &kp SEMICOLON     &kp SQT
+&kp TAB        &kp Q      &kp W     &kp E       &kp R      &kp T   &none                                                                                  &none            &kp Y   &kp U           &kp I         &kp O      &kp P             &kp BSLH
+&kp ESCAPE     &kp A      &kp S     &lt 4 D     &kp F      &kp G   &none                &kp LCTRL     &kp LWIN           &kp LEFT_WIN        &kp RCTRL    &none            &kp H   &kp J           &lt 4 K       &kp L      &kp SEMICOLON     &kp SQT
 &kp RIGHT_ALT  &kp SLASH  &kp Z     &hm LALT X  &lt 1 C    &kp V                                      &lt 4 END          &lt 4 PAGE_UP                                     &kp B   &kp N           &hm LALT M    &kp COMMA  &kp LEFT_BRACKET  &kp RIGHT_ALT
 &kp LS(TAB)    &kp TAB    &kp CAPS  &kp LEFT    &kp RIGHT          &hm LSHFT BACKSPACE  &lt 2 DELETE  &hm LALT HOME      &hm LALT PAGE_DOWN  &lt 2 ENTER  &hm RSHFT SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp DOT    &kp RBKT          &lt 2 EQUAL
             >;
@@ -161,11 +161,11 @@
 
         numbers_and_sym_4 {
             bindings = <
-&trans  &none            &kp TILDE      &kp QUESTION       &kp PIPE          &none                 &trans                                              &trans  &none              &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none           &none                 &trans
-&trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK       &kp SLASH         &kp NON_US_BACKSLASH  &trans                                              &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL       &kp PLUS              &trans
-&to 0   &kp EXCLAMATION  &kp AT         &kp HASH           &kp DOLLAR        &kp PERCENT           &trans  &trans  &trans      &kp BACKSPACE  &kp DEL  &trans  &kp GRAVE          &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp UNDERSCORE  &kp KP_MINUS          &trans
-&trans  &none            &none          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE                             &trans      &trans                          &none              &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA       &kp SLASH             &trans
-&trans  &none            &none          &trans             &trans                                  &trans  &trans  &trans      &trans         &trans   &trans                     &kp LESS_THAN         &kp GREATER_THAN       &kp DOT         &kp NON_US_BACKSLASH  &kp PIPE
+&trans  &none            &kp TILDE      &kp QUESTION       &kp PIPE          &none                 &trans                                              &trans  &none      &kp DOUBLE_QUOTES     &kp SQT                &kp GRAVE       &none                 &trans
+&trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK       &kp SLASH         &kp NON_US_BACKSLASH  &trans                                              &trans  &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL       &none                 &trans
+&to 0   &kp EXCLAMATION  &kp AT         &kp HASH           &kp DOLLAR        &kp PERCENT           &trans  &trans  &trans      &kp BACKSPACE  &kp DEL  &trans  &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp COLON             &kp DOUBLE_QUOTES
+&trans  &none            &none          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE                             &trans      &trans                          &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COMMA       &kp SLASH             &trans
+&trans  &none            &none          &trans             &trans                                  &trans  &trans  &trans      &trans         &trans   &trans             &kp LESS_THAN         &kp GREATER_THAN       &kp DOT         &kp NON_US_BACKSLASH  &trans
             >;
         };
 
