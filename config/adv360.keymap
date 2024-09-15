@@ -131,21 +131,21 @@
 
         layer_keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                        &none   &kp LS(KP_NUM)  &kp MINUS     &kp ASTERISK  &kp PLUS      &none      &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                         &none   &none           &kp N7        &kp N8        &kp N9        &kp PLUS   &none
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp BACKSPACE  &kp DELETE  &none   &none           &kp N4        &kp N5        &kp NUMBER_6  &kp COLON  &none
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                        &none   &kp LS(KP_NUM)  &kp MINUS     &kp ASTERISK  &kp PLUS      &none      &kp UNDER
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                         &none   &none           &kp N7        &kp N8        &kp N9        &kp PLUS   &kp PIPE
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp BACKSPACE  &kp DELETE  &none   &none           &kp N4        &kp N5        &kp NUMBER_6  &kp COLON  &kp DOUBLE_QUOTES
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                          &kp ENTER       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN      &kp ENTER   &kp N0                  &kp N0        &kp COMMA     &kp PERIOD    &kp SPACE  &kp EQUAL
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN      &kp ENTER   &kp N0                  &kp N0        &kp COMMA     &kp PERIOD    &kp SPACE  &kp PLUS
             >;
         };
 
         layer_fn {
             bindings = <
-&none   &kp F1  &kp F2           &kp F3      &kp F4  &kp F5           &none                                                                &none   &kp F6            &kp F7        &kp F8        &kp F9        &kp F10    &kp F11
-&trans  &kp N0  &kp UNDERSCORE   &kp DOLLAR  &none   &none            &kp C_BRI_UP                                                         &none   &kp PLUS          &kp N7        &kp N8        &kp N9        &none      &kp F12
-&to 0   &none   &kp PRINTSCREEN  &none       &none   &none            &kp C_BRIGHTNESS_DEC  &trans  &trans      &kp BACKSPACE  &kp DELETE  &trans  &kp MINUS         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON  &kp C_VOLUME_UP
-&trans  &none   &none            &none       &none   &kp PRINTSCREEN                                &trans      &trans                             &kp C_PLAY_PAUSE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp C_VOL_DN
-&trans  &none   &none            &none       &none                    &trans                &trans  &trans      &trans         &kp ENTER   &kp N0                    &trans        &trans        &kp PERIOD    &none      &kp C_MUTE
+&none   &kp F1  &kp F2           &kp F3      &kp F4  &kp F5           &none                                                                &kp K_MUTE       &kp F6            &kp F7        &kp F8        &kp F9        &kp F10          &kp F11
+&trans  &kp N0  &kp UNDERSCORE   &kp DOLLAR  &none   &none            &kp C_BRI_UP                                                         &kp C_VOLUME_UP  &kp PLUS          &kp N7        &kp N8        &kp N9        &kp KP_MULTIPLY  &kp F12
+&to 0   &none   &kp PRINTSCREEN  &none       &none   &none            &kp C_BRIGHTNESS_DEC  &trans  &trans      &kp BACKSPACE  &kp DELETE  &kp C_VOL_DN     &kp MINUS         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON        &kp DOUBLE_QUOTES
+&trans  &none   &none            &none       &none   &kp PRINTSCREEN                                &trans      &trans                                      &kp C_PLAY_PAUSE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DIVIDE    &none
+&trans  &none   &none            &none       &none                    &trans                &trans  &trans      &trans         &kp ENTER   &kp N0                             &trans        &trans        &kp PERIOD    &none            &kp EQUAL
             >;
         };
 
