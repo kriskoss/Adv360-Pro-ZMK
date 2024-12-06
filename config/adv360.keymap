@@ -131,11 +131,11 @@
 
         layer_keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                        &none   &none  &none         &kp SLASH     &kp ASTERISK  &kp MINUS  &kp UNDER
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                         &none   &none  &kp N7        &kp N8        &kp N9        &kp PLUS   &kp PIPE
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp BACKSPACE  &kp DELETE  &none   &none  &kp N4        &kp N5        &kp NUMBER_6  &kp COLON  &kp DOUBLE_QUOTES
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                          &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN      &kp ENTER   &kp N0         &kp N0        &kp N0        &kp PERIOD    &kp ENTER  &kp PLUS
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                        &none   &none      &none         &kp SLASH     &kp ASTERISK  &kp MINUS             &kp UNDER
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                         &none   &kp PLUS   &kp N7        &kp N8        &kp N9        &kp SLASH             &kp PIPE
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp BACKSPACE  &kp DELETE  &none   &kp MINUS  &kp N4        &kp N5        &kp NUMBER_6  &kp COLON             &kp DOUBLE_QUOTES
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                          &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NON_US_BACKSLASH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN      &kp ENTER   &kp N0             &kp N0        &kp N0        &kp PERIOD    &kp ENTER             &kp PLUS
             >;
         };
 
